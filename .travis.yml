@@ -1,3 +1,8 @@
-language: java
-    - openjdk7
-    - oraclejdk7
+language: java - openjdk7 - oraclejdk7
+deploy:
+  provider: heroku
+  api_key:
+    secure: UL3Bj6E4CGRMsP1ZVapAqdQ8CfRtmwyKo2FROzF5LmrcuFjpKdZ16ltPqwrYmdcM5v69oP2bu45lYQSU5cVZ1Epc7d/1aXlynQJU83sXVM3uqfW2gyseGzE1a92+0OJj3v6tYldKW24YCjhJRBi/rVvvwk9vlyndtJ43r1UFmOs=
+  app: fathomless-harbor-2656
+  on:
+    repo: eggertj12/sparkIt
