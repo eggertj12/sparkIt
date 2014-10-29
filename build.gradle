@@ -61,6 +61,6 @@ task seleniumXvfb(type: Test, dependsOn: installApp) {
     }
 }
 
-stage {
+task stage {
     dependsOn installApp
 }
